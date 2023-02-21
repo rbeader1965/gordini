@@ -73,14 +73,14 @@
     margin-left: 1px;
     justify-items: center;
     align-items: center;
-    background-color: rgba(36, 0, 0, 0.757);
+    background-color: black;
     max-width: 240px;
     max-height: 320px;
     border-radius: 16px;
     gap: 4px;
 } 
 .clubber {
-    border: solid black 1px;
+    border: solid rgb(17, 47, 9) 1px;
     border-radius: 12px;
     padding: 1px;
 }   

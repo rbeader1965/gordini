@@ -66,7 +66,7 @@
 {/each}
 {#each acacias as acacia }
   <div class="flex flex-col items-center justify-center p-2 rounded-2xl border">
-    <img src={acacia.src} alt="none" wclass="object-cover w-64 h-48">
+    <img src={acacia.src} alt="none" class="object-cover w-64 h-48">
     <span class="items-center text-yellow-400">Acacia Reserve</span>
     <h2 class="m-2 items-center text-yellow-400">Hole # {acacia.id}</h2>
     <h4 class="m-2 items-center text-yellow-400">{acacia.reds}</h4>

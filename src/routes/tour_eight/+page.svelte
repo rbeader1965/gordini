@@ -7,12 +7,12 @@
   import Wedges from "../../components/Wedges.svelte";
   import Woods from "../../components/Woods.svelte";
 const images = [
-  {"id":1,"reds":"10% driver ½ ball leftcurl, 10% short iron or wedge, 0% for dunkaroo","src":"/tour8_images/1.png"},
-  {"id":3,"reds":"20% driver, +15% long iron. Might be +15% wood","src":"/tour8_images/3.png"},
-  {"id":5,"reds":"driver max 10% short iron 0%","src":"/tour8_images/5.png"},
-  {"id":6,"reds":"10% driver no move overpower, 40% mid wood","src":"/tour8_images/6.png"},
-  {"id":8,"reds":"25% driver, 15% long iron mid, rough bump is 25% mid","src":"/tour8_images/8.png"},
-  {"id":9,"reds":"10% driver, 15% wood or Long Iron","src":"/tour8_images/9.png"}
+  {"id":1,"reds":"10% driver ½ ball leftcurl, 10% short iron or wedge, 0% for dunkaroo","src":"/tour8_images/yg1.png"},
+  {"id":3,"reds":"20% driver, +15% long iron. Might be +15% wood","src":"/tour8_images/yg3.png"},
+  {"id":5,"reds":"driver max 10% short iron 0%","src":"/tour8_images/yg5.png"},
+  {"id":6,"reds":"10% driver no move overpower, 40% mid wood","src":"/tour8_images/yg6.png"},
+  {"id":8,"reds":"25% driver, 15% long iron mid, rough bump is 25% mid","src":"/tour8_images/yg8.png"},
+  {"id":9,"reds":"10% driver, 15% wood or Long Iron","src":"/tour8_images/yg9.png"}
 ]
 const peaks = [
   {"id":1,"reds":"10% driver (Rock) left side, 5% long iron (grizzly) rough bump","src":"/tour8_images/ep1.png"},
@@ -36,8 +36,8 @@ const fjords = [
 
 
 
-<div class="container bg-blue-600 m-auto flex flex-row">
-<div class="bg-blue-900 w-1/4 h-full grid p-4 justify-center gap-1 sticky top-0">
+<div class="container bg-info-content m-auto flex flex-row">
+<div class="bg-success-content w-1/4 h-full grid p-4 justify-center gap-1 sticky top-0">
  <Drivers />
  <Woods />
  <LongIron />
@@ -46,10 +46,10 @@ const fjords = [
  <RoughIron />
  <SandClubs />
 </div>
-<div class="bg-gray-700 w-3/4 h-full grid grid-cols-3">
+<div class="bg-info-content w-4/5 h-full grid grid-cols-4">
 {#each images as image }
  <div class="flex flex-col items-center justify-center p-2 rounded-2xl border">
-   <img src={image.src} alt="none" width="240px" height="120px">
+   <img src={image.src} alt="none" class="object-cover w-64 h-48">
    <span class="items-center text-yellow-400">Yongsan Gardens</span>
    <h2 class="m-2 items-center text-yellow-400">Hole # {image.id}</h2>
    <h4 class="m-2 items-center text-yellow-400">{image.reds}</h4>
@@ -57,7 +57,7 @@ const fjords = [
 {/each}
 {#each peaks as peak }
  <div class="flex flex-col items-center justify-center p-2 rounded-2xl border">
-   <img src={peak.src} alt="none" width="240px" height="120px">
+   <img src={peak.src} alt="none" class="object-cover w-64 h-48">
    <span class="items-center text-yellow-400">Eagle Peak</span>
    <h2 class="m-2 items-center text-yellow-400">Hole # {peak.id}</h2>
    <h4 class="m-2 items-center text-yellow-400">{peak.reds}</h4>
@@ -65,7 +65,7 @@ const fjords = [
 {/each}
 {#each fjords as fjord }
  <div class="flex flex-col items-center justify-center p-2 rounded-2xl border">
-   <img src={fjord.src} alt="none" width="240px" height="120px">
+   <img src={fjord.src} alt="none" class="object-cover w-64 h-48">
    <span class="items-center text-yellow-400">Nordic Fjords</span>
    <h2 class="m-2 items-center text-yellow-400">Hole # {fjord.id}</h2>
    <h4 class="m-2 items-center text-yellow-400">{fjord.reds}</h4>

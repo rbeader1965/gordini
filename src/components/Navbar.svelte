@@ -5,10 +5,16 @@
         isMenuOpen = !isMenuOpen;
     }
     let current = 0;
+
+    import Icon from '@iconify/svelte';
 </script>
 
 <div class="navbar">
-    <a href="/" class="logo"><h2>Sportbettor 101</h2></a>
+    <div class="flex">
+        <Icon icon="mdi:home" style="color: red" />
+        <a href="/" class="logo"><h2>Sportbettor 101</h2></a>
+    </div>
+ 
  <nav class:open={isMenuOpen}>
     <ul>
         <!-- svelte-ignore a11y-click-events-have-key-events -->
