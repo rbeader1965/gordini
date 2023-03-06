@@ -5,7 +5,6 @@
     let wind = 0;
     let a = club;
 	let b = ball;
-
 </script>
 <form class="main">
     <div class="clubber">
@@ -77,16 +76,14 @@
     max-width: 240px;
     max-height: 320px;
     border-radius: 16px;
-    gap: 4px;
+    gap: 1px;
 } 
 .clubber {
-    border: solid rgb(17, 47, 9) 1px;
-    border-radius: 12px;
     padding: 1px;
 }   
 .wind {
     margin: 1rem;
-    padding: 1px;
+    padding: 1e .5em;
     color: yellow;;
 }
 .elevation {

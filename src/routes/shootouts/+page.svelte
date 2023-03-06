@@ -11,9 +11,9 @@
         {"src": "/shootout_images_9/dl7.png","alt": "ready","desc": "10% max-mid 2 DS 1 RS"}
      ]
      const tourtens = [
-        {"src": "/shootout_images_9/nc2.png","alt": "ready","desc": "15% max wood-(+3 Yard) blue ring touching- 3.7 DS 1.5 RS"},
-        {"src": "/shootout_images_9/nc4.png","alt": "ready","desc": "15% mid wood-blue ring in trap,edge of red top- 4 TS 2.8 RS"},
-        {"src": "/shootout_images_9/nc8.png","alt": "ready","desc": "40% mid wood-aim right of pin- 4.5 BS .5 LS"},
+        {"src": "/shootout_images_9/nc2.png","alt": "ready","desc": "20%"},
+        {"src": "/shootout_images_9/nc4.png","alt": "ready","desc": "40%"},
+        {"src": "/shootout_images_9/nc8.png","alt": "ready","desc": "35%"},
         {"src": "/shootout_images_9/port2.png","alt": "ready","desc": "10% wood- blue ring fringe 2 DS 2 RS"},
         {"src": "/shootout_images_9/port6.png","alt": "ready","desc": "40% max wood- 3.5 DS 1.5 LS"},
         {"src": "/shootout_images_9/port8.png","alt": "ready","desc": "20% wood"},

@@ -1,5 +1,5 @@
 <script>
-    import Drivers from "../../components/Drivers.svelte";
+  import Drivers from "../../components/Drivers.svelte";
   import LongIron from "../../components/LongIron.svelte";
   import RoughIron from "../../components/RoughIron.svelte";
   import SandClubs from "../../components/SandClubs.svelte";
@@ -37,7 +37,7 @@ const fjords = [
 
 
 <div class="container bg-info-content m-auto flex flex-row">
-<div class="bg-success-content w-1/4 h-full grid p-4 justify-center gap-1 sticky top-0">
+<div class="bg-success-content w-1/4 h-full flex flex-col justify-center items-center gap-1 sticky top-0">
  <Drivers />
  <Woods />
  <LongIron />
